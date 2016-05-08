@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Puurid</title>
+  </head>
+  <body>
+      <?php
+      $teinePikks = count($p_n);
+       for ($i=0; $i <$teinePikks ; $i++) {
+        if($p_n[$i][0] == $p_n[$i][0])
+        echo "<div><p>Puur number" . $p_n[$i][0]."</p><br>";
+         $pilt = "pildid/".$p_n[$i][1];
+        echo "<img src=\"".$pilt."\"". "alt=\"loom".$p_n[$i][1]." \"". "/>"."</div>";
+       }
+       
+      ?>
+  </body>
+</html>
